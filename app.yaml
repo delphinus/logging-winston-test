@@ -1,0 +1,7 @@
+---
+runtime: nodejs10
+service: message-studio-sync
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
