@@ -1,4 +1,4 @@
-import express from 'express'
+import express = require('express')
 import * as lw from '@google-cloud/logging-winston'
 
 const app = express()
